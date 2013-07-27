@@ -9,18 +9,47 @@
 
   #header{
   	background-color: #7acdc8;
+  	border-bottom: 1px solid #60aba6;
   	text-align: center;
   	max-width: 100%;
   }
 
   #conflict{
   	background-color: #f1f1f1;
-  	border-bottom: 2px;
-  	border-color: #fff;
-  	max-width: 970px;
+  	border-bottom: 1px solid #60aba6;
+  	max-width: 1000px;
   	margin: 0 auto;
   	padding: 0 30px 30px;
   	overflow: hidden;
+  }
+
+  #conclusion{
+  	background-color: #f1f1f1;
+  	border-bottom: 1px solid #60aba6;
+  	border-top: 1px solid #fff;
+  	max-width: 1000px;
+  	margin: 0 auto;
+  	padding: 0 30px 30px;
+  	overflow: hidden;
+  }
+
+  #extra-links{
+  	background-color: #7acdc8;
+  	border-bottom: 1px solid #60aba6;
+  	border-top: 1px solid #e4e3e6;
+  	color: #fff;
+	width: 100%;
+	padding: 30px;
+  }
+
+  footer{
+  	background-color: #f1f1f1;
+  	border-bottom: 1px solid #60aba6;
+  	border-top: 1px solid #fff;
+  	color: #7acdc8;
+  	margin: 0 auto;
+  	overflow: hidden;
+  	padding-top: 15px;
   }
 
   h1{
@@ -29,9 +58,14 @@
   }
 
 
-  h2,h3{
+  h2,h3,h4{
   	color: #363636;
   	font: 300 3em/1em "oleo script swash caps", sans-serif;
+  }
+
+    h5{
+  	color: #fff;
+  	font: 300 1.750em/1em "oleo script swash caps", sans-serif;
   }
 
   h6{
@@ -40,7 +74,7 @@
   	text-align: center;
   }
 
-.large-3{
+#thumb-1, #thumb-2, #thumb-3, #thumb-4, #thumb-5{
   	background: #7acdc8;
   	padding: 1%;
   	margin: 1%;
