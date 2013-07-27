@@ -5,19 +5,33 @@
   body{
   	background-color: #e2e2e2;
   	color: #363636;
-  	font-size: 16px;
   }
 
-  #content-wrapper{
+  #header{
+  	background-color: #7acdc8;
+  	text-align: center;
+  	max-width: 100%;
+  }
+
+  #conflict{
   	background-color: #f1f1f1;
+  	border-bottom: 2px;
+  	border-color: #fff;
   	max-width: 970px;
   	margin: 0 auto;
-  	padding: 0 30px;
+  	padding: 0 30px 30px;
+  	overflow: hidden;
   }
 
-  h1,h2,h3{
+  h1{
+  	color: #ffffff;
+  	font: 300 3em/1em "oleo script swash caps", sans-serif;
+  }
+
+
+  h2,h3{
   	color: #363636;
-  	font: 300 56px "oleo script swash caps", "helvetica neue", sans-serif;
+  	font: 300 3em/1em "oleo script swash caps", sans-serif;
   }
 
   h6{
@@ -31,4 +45,9 @@
   	padding: 1%;
   	margin: 1%;
   	width: 18%;
+  }
+
+  .reference {
+  	color: #7acdc8;
+  	font-size: 12px;
   }
