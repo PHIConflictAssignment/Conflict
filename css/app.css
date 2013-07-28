@@ -1,3 +1,12 @@
+/*  Colors
+Teal - #7acdc8
+Bevel Grey - #eee
+Body - #e2e2e2
+Content Bkg - #f1f1f1
+Text - #363636
+*/
+
+
 /*==========================================================================
 	Page Layout
   =========================================================================*/
@@ -63,8 +72,8 @@
   	font: 300 3em/1em "oleo script swash caps", sans-serif;
   }
 
-    h5{
-  	color: #fff;
+  h5{
+  	color: #363636;
   	font: 300 1.750em/1em "oleo script swash caps", sans-serif;
   }
 
@@ -84,4 +93,8 @@
   .reference {
   	color: #7acdc8;
   	font-size: 12px;
+  }
+
+  #slider h5{
+  	color: #fff;
   }
