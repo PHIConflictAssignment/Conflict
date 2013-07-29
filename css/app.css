@@ -1,0 +1,196 @@
+<<<<<<< HEAD
+/* Colors
+=======
+/*  Colors
+>>>>>>> 71a19ed6bd54c60cabb5371b2ea41b93b699b975
+Teal - #7acdc8
+Bevel Grey - #eee
+Body - #e2e2e2
+Content Bkg - #f1f1f1
+Text - #363636
+*/
+
+
+/*==========================================================================
+<<<<<<< HEAD
+Page Layout
+=========================================================================*/
+
+  body{
+   background-color: #e2e2e2;
+   color: #363636;
+  }
+
+  #header{
+   background-color: #7acdc8;
+   border-bottom: 1px solid #60aba6;
+   text-align: center;
+   max-width: 100%;
+  }
+
+  #conflict{
+   background-color: #f1f1f1;
+   border-bottom: 1px solid #60aba6;
+   max-width: 1000px;
+   margin: 0 auto;
+   padding: 0 30px 30px;
+   overflow: hidden;
+  }
+
+  #conclusion{
+   background-color: #f1f1f1;
+   border-bottom: 1px solid #60aba6;
+   border-top: 1px solid #fff;
+   max-width: 1000px;
+   margin: 0 auto;
+   padding: 0 30px 30px;
+   overflow: hidden;
+  }
+
+  #extra-links{
+   background-color: #7acdc8;
+   border-bottom: 1px solid #60aba6;
+   border-top: 1px solid #e4e3e6;
+   color: #fff;
+width: 100%;
+padding: 30px;
+  }
+
+  footer{
+   background-color: #f1f1f1;
+   border-bottom: 1px solid #60aba6;
+   border-top: 1px solid #fff;
+   color: #7acdc8;
+   margin: 0 auto;
+   overflow: hidden;
+   padding-top: 15px;
+  }
+
+  h1{
+   color: #ffffff;
+   font: 300 3em/1em "oleo script swash caps", sans-serif;
+=======
+	Page Layout
+  =========================================================================*/
+
+  body{
+  	background-color: #e2e2e2;
+  	color: #363636;
+  }
+
+  #header{
+  	background-color: #7acdc8;
+  	border-bottom: 1px solid #60aba6;
+  	text-align: center;
+  	max-width: 100%;
+  }
+
+  #conflict{
+  	background-color: #f1f1f1;
+  	border-bottom: 1px solid #60aba6;
+  	max-width: 1000px;
+  	margin: 0 auto;
+  	padding: 0 30px 30px;
+  	overflow: hidden;
+  }
+
+  #conclusion{
+  	background-color: #f1f1f1;
+  	border-bottom: 1px solid #60aba6;
+  	border-top: 1px solid #fff;
+  	max-width: 1000px;
+  	margin: 0 auto;
+  	padding: 0 30px 30px;
+  	overflow: hidden;
+  }
+
+  #extra-links{
+  	background-color: #7acdc8;
+  	border-bottom: 1px solid #60aba6;
+  	border-top: 1px solid #e4e3e6;
+  	color: #fff;
+	width: 100%;
+	padding: 30px;
+  }
+
+  footer{
+  	background-color: #f1f1f1;
+  	border-bottom: 1px solid #60aba6;
+  	border-top: 1px solid #fff;
+  	color: #7acdc8;
+  	margin: 0 auto;
+  	overflow: hidden;
+  	padding-top: 15px;
+  }
+
+  h1{
+  	color: #ffffff;
+  	font: 300 3em/1em "oleo script swash caps", sans-serif;
+>>>>>>> 71a19ed6bd54c60cabb5371b2ea41b93b699b975
+  }
+
+
+  h2,h3,h4{
+<<<<<<< HEAD
+   color: #363636;
+   font: 300 3em/1em "oleo script swash caps", sans-serif;
+  }
+
+  h5{
+   color: #363636;
+   font: 300 1.750em/1em "oleo script swash caps", sans-serif;
+  }
+
+  h6{
+   color: #fff;
+   font-size: 16px;
+   text-align: center;
+  }
+
+#thumb-1, #thumb-2, #thumb-3, #thumb-4, #thumb-5{
+   background: #7acdc8;
+   padding: 1%;
+   margin: 1%;
+   width: 18%;
+  }
+
+  .reference {
+   color: #7acdc8;
+   font-size: 12px;
+  }
+
+  #slider h5{
+   color: #fff;
+  }
+=======
+  	color: #363636;
+  	font: 300 3em/1em "oleo script swash caps", sans-serif;
+  }
+
+  h5{
+  	color: #363636;
+  	font: 300 1.750em/1em "oleo script swash caps", sans-serif;
+  }
+
+  h6{
+  	color: #fff;
+  	font-size: 16px;
+  	text-align: center;
+  }
+
+#thumb-1, #thumb-2, #thumb-3, #thumb-4, #thumb-5{
+  	background: #7acdc8;
+  	padding: 1%;
+  	margin: 1%;
+  	width: 18%;
+  }
+
+  .reference {
+  	color: #7acdc8;
+  	font-size: 12px;
+  }
+
+  #slider h5{
+  	color: #fff;
+  }
+>>>>>>> 71a19ed6bd54c60cabb5371b2ea41b93b699b975
