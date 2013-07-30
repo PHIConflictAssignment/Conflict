@@ -42,13 +42,22 @@ Page Layout
    overflow: hidden;
   }
 
-  #extra-links{
+  #extra-links {
    background-color: #7acdc8;
    border-bottom: 1px solid #60aba6;
    border-top: 1px solid #e4e3e6;
    color: #fff;
 width: 100%;
 padding: 30px;
+  }
+
+  #extra-links a{
+    color: #fff;
+
+  }
+
+  #extra-links a:hover{
+    text-decoration: underline;
   }
 
   footer{
