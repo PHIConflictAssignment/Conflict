@@ -107,3 +107,10 @@ padding: 30px;
   #slider h5{
    color: #fff;
   }
+
+  .divider{
+    display: block;
+    width: 30%;
+    margin: 40px auto 20px;
+  }
+
