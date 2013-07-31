@@ -54,13 +54,13 @@ Page Layout
 
   }
 
+  #extra-links a:hover{
+    text-decoration: underline;
+  }
+
   #extra-links h5{
     color: #fff;
     padding-top: 40px;
-  }
-
-  #extra-links a:hover{
-    text-decoration: underline;
   }
 
   footer{
@@ -79,8 +79,14 @@ Page Layout
   }
 
 
-  h2,h3,h4{
+  h2,h4{
    color: #363636;
+   font: 300 3em/1em "oleo script swash caps", sans-serif;
+   padding-top: 30px;
+  }
+
+  h3{
+   color: #f1f1f1;
    font: 300 3em/1em "oleo script swash caps", sans-serif;
    padding-top: 30px;
   }
@@ -114,10 +120,6 @@ Page Layout
    font-size: 12px;
   }
 
-  #slider h5{
-   color: #fff;
-  }
-
   .divider{
     display: block;
     width: 30%;
@@ -135,5 +137,5 @@ Page Layout
   .button{
     background-color: #f1f1f1;
     border-color: #eeeeee;
-    color: #363636;
+    color: #7acdc8;
   }
