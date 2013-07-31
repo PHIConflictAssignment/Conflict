@@ -132,3 +132,9 @@ Page Layout
   #slider-nav{ padding: 30px;}
       #slider-nav a{ color: #f1f1f1;}
 
+  .button{
+    background-color: #f1f1f1;
+    border-color: #eeeeee;
+    color: #363636;
+  }
+
