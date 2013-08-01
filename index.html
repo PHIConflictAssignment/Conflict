@@ -139,6 +139,7 @@
       <img class="divider" src="img/divider.jpg" alt=""/>
     </div>
   </div>
+</div>
 
   <!-- Desktop Slider -->
   <div id="slider">
@@ -218,8 +219,8 @@
       </ul>
     </div>
     <div id="slider-nav">
-      <a href="#slider" class="unslider-arrow prev">Previous slide</a>
-      <a href="#slider" class="unslider-arrow next">Next slide</a>
+      <a href="#slider" class="unslider-arrow prev">&lt; Previous slide</a>
+      <a href="#slider" class="unslider-arrow next">Next slide &gt;</a>
     </div>
   </div>
 
@@ -250,6 +251,7 @@
       </div>
     </div>
   </div>
+</div>
 
   <div id="extra-links" class="row">
     <div class="large-8 columns">
@@ -323,37 +325,40 @@
   <!-- Reveal Modals begin -->
   <div id="avoidance" class="reveal-modal medium">
     <div class="row">
+      <h2>What is Avoidance?</h2>
+    </div>
+    <div class="row">
       <div class="large-12 columns">
-        <h2>What is Avoidance?</h2>
           <audio id="player_avoidance">
             <source src="audio/avoidancevoice2.ogg" type="audio/ogg">
             <source src="audio/avoidancevoice2.mp3" type="audio/mpeg">
           </audio>
-        <div>
-          <button onclick="document.getElementById('player_avoidance').play()">Play</button>
-          <button onclick="document.getElementById('player_avoidance').pause()">Pause</button>
-          <button onclick="document.getElementById('player_avoidance').currentTime = 0;">Restart</button>
-          <button onclick="document.getElementById('player_avoidance').volume+=0.1">Volume Up</button>
-          <button onclick="document.getElementById('player_avoidance').volume-=0.1">Volume Down</button>
-        </div> 
-
+          <div>
+            <button onclick="document.getElementById('player_avoidance').play()">Play</button>
+            <button onclick="document.getElementById('player_avoidance').pause()">Pause</button>
+            <button onclick="document.getElementById('player_avoidance').currentTime = 0;">Restart</button>
+            <button onclick="document.getElementById('player_avoidance').volume+=0.1">Volume Up</button>
+            <button onclick="document.getElementById('player_avoidance').volume-=0.1">Volume Down</button>
+          </div> 
+      </div>
+    </div>
+    <div class="row">
         <div class="large-12 columns">
           <p>Conflict avoidance can be described as the refusal to speak up when confronted with an issue that an individual does not agree with. Although in some cases this might be the best option, potential for group growth may be lost if members are not comfortable to express ideas and concerns. There are many factors that contribute to avoidance. Some examples are; lack of self-esteem, avoidance of any conflict, unresponsive management, and even cultural or personal views. When working in a group remember to first evaluate if the situation needs your call to action. Wait for your turn to talk and clearly and calmly describe the idea or concern. Remember to always keep your cool and take a break from the topic if needed. Always remember that you, are uniquely you, and be confident to put your self out there!<br/><br/>  
 
           An example of conflict avoidance would be an individual that has an idea. They want to share it with the group, but are afraid to because of a previous poor experience they had. So they remain silent.
           </p>
         </div> 
-      
-        <a class="close-reveal-modal">&#215;</a>
-      </div>
     </div>
-
-  </div>
+       <a class="close-reveal-modal">&#215;</a>
+    </div>
 
   <div id="accommodation" class="reveal-modal medium">
     <div class="row">
+      <h2>What is Accommodation?</h2>
+    </div>
+    <div class="row">
       <div class="large-12 columns">
-        <h2>What is Accommodation?</h2>
           <audio id="player_accommodation">
             <source src="audio/accommodationvoice.ogg" type="audio/ogg">
             <source src="audio/accommodationvoice.mp3" type="audio/mpeg">
@@ -365,19 +370,23 @@
           <button onclick="document.getElementById('player_accommodation').volume+=0.1">Volume Up</button>
           <button onclick="document.getElementById('player_accommodation').volume-=0.1">Volume Down</button>
         </div> 
+      </div>
+    </div>
+      <div class="row">
         <div class="large-12 columns">
           <p>The Accommodation style of conflict resolution is very common in the workplace, marriages, and domestic partnerships alike. It occurs when one person or party decides it is better to concede to the other party rather than argue their point. In most cases, this style of conflict resolution is highly effective. However, there can be times when using this style of conflict resolution will result in resentment and hard feelings on the side that makes the accommodation. If you are receiving the accommodations, it is always a good idea, good practice and just common courtesy, to acknowledge the accommodations that are being made by the other party. A simple thank you goes a long way when working with others.<br/><br/>
 
           Here is an example of the accommodation style of conflict resolution being used in a marriage. Mary wants to go to her parent’s house for Thanksgiving. Barry, her husband would rather sit at home and watch the game. For the sake of not wanting to argue, Barry concedes to his wife’s wishes and spends Thanksgiving at Mary’s parents house. 
           </p>
         </div> 
-        <a class="close-reveal-modal">&#215;</a>
       </div>
-    </div>
+      <a class="close-reveal-modal">&#215;</a>
   </div>
 
   <div id="competition" class="reveal-modal medium">
-    <h2>What is Competition?</h2>
+    <div class="row">
+      <h2>What is Competition?</h2>
+    </div>
       <div class="row">
         <div class="large-12 columns">
           <audio id="player_competition">
@@ -391,21 +400,24 @@
           <button onclick="document.getElementById('player_competition').volume+=0.1">Volume Up</button>
           <button onclick="document.getElementById('player_competition').volume-=0.1">Volume Down</button>
         </div> 
+      </div>
+    </div>
+    <div class="row">
         <div class="large-12 columns">
           <p>In conflict management, competition lies opposite to accommodation. While both are considered win-lose styles, where one side wins and the other loses, competition takes the more aggressive approach and is usually based in “suspicious and hostile attitudes” and “a willingness to exploit the other's needs if possible” (Rudawsky, 1999).<br/><br/>
 
           You’ll often find competition used as a fall back strategy for group members with highly assertive personalities. Although competitive tactics often cause conflict to increase, if used appropriately, for example, in a conflict where an emergency or crisis exists, it can be a powerful and effective style. <br/><br/>
 
           Before utilizing a competitive approach, take time to consider whether or not it’s appropriate for the situation, allow opposing ideas to be thoroughly explained first, and make a sincere effort to help the other party see how your position could benefit them, and what they could gain from agreement with your proposal.</p>
-
         </div>
-        <a class="close-reveal-modal">&#215;</a>
-      </div>
     </div>
-  </div>
+        <a class="close-reveal-modal">&#215;</a>
+    </div>
 
   <div id="compromise" class="reveal-modal medium">
-    <h2>What is Compromise?</h2>
+    <div class="row">
+     <h2>What is Compromise?</h2>
+    </div>
       <div class="row">
         <div class="large-12 columns">
           <audio id="player_compromise">
@@ -419,40 +431,45 @@
           <button onclick="document.getElementById('player_compromise').volume+=0.1">Volume Up</button>
           <button onclick="document.getElementById('player_compromise').volume-=0.1">Volume Down</button>
         </div> 
+      </div>
+    </div>
+    <div class="row">
         <div class="large-12 columns">
           <p>The Compromise resolution style of conflict can be called a partial-win/partial-lose solution. Compromise happens when each party gives up something to get something in return. With compromise, both parties are satisfied when they each have something to take away from the exchange. In this style both parties lose a little, however, they each win in the end. Compromise is all about fairness. A compromise will work when both parties feel the solution is fair and they both benefit from the solution.<br/><br/>
 
           Here is an easy example of compromise. Two people are having dinner and both want the last piece of bread. Instead of fighting over it, they split it in half and share it.
           </p>
         </div>
-        <a class="close-reveal-modal">&#215;</a>
-      </div>
     </div>
+    <a class="close-reveal-modal">&#215;</a>
   </div>
 
   <div id="collaboration" class="reveal-modal medium">
-    <h2>What is Collaboration?</h2>
+    <div class="row">
+      <h2>What is Collaboration?</h2>
+    </div>
       <div class="row">
         <div class="large-12 columns">
           <audio id="player_collaboration">
             <source src="audio/Inge_Phillip-Collaboration.ogg" type="audio/ogg">
             <source src="audio/Inge_Phillip-Collaboration.mp3" type="audio/mpeg">
           </audio>
-        <div>
-          <button onclick="document.getElementById('player_collaboration').play()">Play</button>
-          <button onclick="document.getElementById('player_collaboration').pause()">Pause</button>
-          <button onclick="document.getElementById('player_collaboration').currentTime = 0;">Restart</button>
-          <button onclick="document.getElementById('player_collaboration').volume+=0.1">Volume Up</button>
-          <button onclick="document.getElementById('player_collaboration').volume-=0.1">Volume Down</button>
-        </div> 
+          <div>
+            <button onclick="document.getElementById('player_collaboration').play()">Play</button>
+            <button onclick="document.getElementById('player_collaboration').pause()">Pause</button>
+            <button onclick="document.getElementById('player_collaboration').currentTime = 0;">Restart</button>
+            <button onclick="document.getElementById('player_collaboration').volume+=0.1">Volume Up</button>
+            <button onclick="document.getElementById('player_collaboration').volume-=0.1">Volume Down</button>
+          </div> 
+        </div>
+      </div>
+      <div class="row">
         <div class="large-12 columns">
           <p>Similar to competition, collaboration often involves individuals in the group arguing strongly for their point of view. The difference is that collaborators pay special attention to the others feelings and are careful not to attack them. Instead, These interactions are rational discussions with the good of the group in mind. This is considered a win-win style of conflict management and when successfully concluded the result is a positive one.</p>
         </div>
-        <a class="close-reveal-modal">&#215;</a>
-
       </div>
+      <a class="close-reveal-modal">&#215;</a>
     </div> 
-  </div>
   <!-- Reveal Modals end -->
   </div>
 </body>

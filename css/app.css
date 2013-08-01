@@ -13,7 +13,12 @@ Page Layout
 
   body{
    background-color: #e2e2e2;
+   background-image: url(../img/bg_noise.png);
    color: #363636;
+  }
+
+  #slider{
+    box-shadow: 0 0 2px #777777;
   }
 
   #header{
@@ -26,6 +31,7 @@ Page Layout
   #conflict{
    background-color: #f1f1f1;
    border-bottom: 1px solid #60aba6;
+   box-shadow: 0 0 2px #777777;
    max-width: 1000px;
    margin: 0 auto;
    overflow: hidden;
@@ -35,7 +41,8 @@ Page Layout
    background-color: #f1f1f1;
    border-bottom: 1px solid #60aba6;
    border-top: 1px solid #fff;
-   max-width: 1000px;
+   box-shadow: 0 0 2px #777777;
+   width: 1000px;
    margin: 0 auto;
    overflow: hidden;
   }
@@ -44,8 +51,9 @@ Page Layout
    background-color: #7acdc8;
    border-bottom: 1px solid #60aba6;
    border-top: 1px solid #e4e3e6;
+   box-shadow: 0 0 2px #777777;
    color: #fff;
-   max-width: 100%;
+   width: 100%;
    padding: 30px;
   }
 
@@ -67,6 +75,7 @@ Page Layout
    background-color: #f1f1f1;
    border-bottom: 1px solid #60aba6;
    border-top: 1px solid #fff;
+   box-shadow: 0 0 2px #777777;
    color: #7acdc8;
    margin: 0 auto;
    overflow: hidden;
@@ -79,13 +88,13 @@ Page Layout
   }
 
 
-  h2,h4{
+  h2,h3,h4{
    color: #363636;
    font: 300 3em/1em "oleo script swash caps", sans-serif;
    padding-top: 30px;
   }
 
-  h3{
+  #slider h3{
    color: #f1f1f1;
    font: 300 3em/1em "oleo script swash caps", sans-serif;
    padding-top: 30px;
@@ -102,7 +111,7 @@ Page Layout
    text-align: center;
   }
 
-    .large-12.columns h5{
+.large-12.columns h5{
    color: #7acdc8;
    font: 300 1.750em/1em "oleo script swash caps", sans-serif;
    padding: 30px 0;
@@ -138,4 +147,9 @@ Page Layout
     background-color: #f1f1f1;
     border-color: #eeeeee;
     color: #7acdc8;
+  }
+
+  .button:hover{
+    background: none;
+    color: #f1f1f1;
   }
