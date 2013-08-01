@@ -113,9 +113,14 @@ Page Layout
   }
 
 .large-12.columns h5{
-   color: #7acdc8;
+   color: #363636;
    font: 300 1.750em/1em "oleo script swash caps", sans-serif;
    padding: 30px 0;
+  }
+
+  #conflict-types h5{
+    color: #7acdc8;
+    font:  1.250em/1em helvetica, sans-serif;
   }
 
 #thumb-1, #thumb-2, #thumb-3, #thumb-4, #thumb-5{
@@ -133,7 +138,7 @@ Page Layout
   .divider{
     display: block;
     width: 30%;
-    margin: 10px auto 5px;
+    margin: 20px auto 5px;
   }
 
   .row{
